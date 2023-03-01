@@ -111,7 +111,7 @@
    line-height: 40px;
 }
 
-.menu a:hover, menu.active{
+.menu a:hover, .menu .active{
 color: #e2236b;
 }
 
@@ -284,7 +284,7 @@ color: #e2236b;
 }
 
 .main-post{
-   display: block;
+   display: flex;
    grid-template-columns: auto-fit, minmax(300px, auto);
    gap: 20px;
 }
